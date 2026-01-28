@@ -52,7 +52,7 @@ pipeline {
                     git config --global user.name "$GITHUB_USER"
             
             
-                    git add deployment.yaml
+                    git add java-maven-sonar-argocd-helm-k8s/spring-boot-app-manifests/deployment.yaml
                     git commit -m "Update deployment file"
                     git push https://$GITHUB_USER:$GITHUB_PASS@github.com/Mariam072/Jenkins-Zero-To-Hero.git
                     '''
