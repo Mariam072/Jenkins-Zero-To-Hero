@@ -54,7 +54,7 @@ pipeline {
             
                     git add deployment.yaml
                     git commit -m "Update deployment file"
-                    git push https://$GITHUB_USER:$GITHUB_PASS@github.com/username/repo.git
+                    git push https://$GITHUB_USER:$GITHUB_PASS@github.com/Mariam072/Jenkins-Zero-To-Hero.git
                     '''
                     
                 }
