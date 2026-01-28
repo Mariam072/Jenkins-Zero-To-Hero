@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        SONAR_URL = "http://192.168.111.135:9000"
+        SONAR_URL = "http://host.docker.internal:9000"
         GIT_REPO_NAME = "Jenkins-Zero-To-Hero"
         GIT_USER_NAME = "Mariam072"
         DOCKER_IMAGE = "mariamhassan198/my-springboot-app:${BUILD_NUMBER}"
